@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 		    <div class="col">
-		    	<h1>This Contact Form IS OF THE PASSED</h1>
+		    	<h1>New Contact Forms Are The FUTURE</h1>
 		    </div>
 	  	</div>
 	  	<div class="row">
