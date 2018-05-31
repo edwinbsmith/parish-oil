@@ -1,3 +1,4 @@
+<?php include 'functions.php'; ?>
 <?php include 'partials/header.php'; ?>
 	<div class="container">
 		<div class="row">

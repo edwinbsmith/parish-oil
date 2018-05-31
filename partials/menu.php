@@ -3,9 +3,9 @@
 $current_page = $_SERVER['PHP_SELF'];
 
 $menu_items = array(
-	'Contact' => '/contact.php',
-	'Customer Information' => '/customer-information.php',
-	'About' => '/about.php',
+	'Contact' => 'contact.php',
+	'Customer Information' => 'customer-information.php',
+	'About' => 'about.php',
 );
 
 ?>
