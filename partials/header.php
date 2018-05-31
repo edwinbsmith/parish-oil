@@ -1,11 +1,9 @@
 <?php
 
-$current_page = function() {
-	return $_SERVER['PHP_SELF'];
-};
+$current_page = $_SERVER['PHP_SELF'];
 
-if ( $current_page() !== '/' ) {
-	include 'content' . $current_page(); 
+if ( $current_page !== '/' ) {
+	include 'content' . $current_page; 
 } else {
 	$heading = 'Index';
 	$content = 'Welcome!';
@@ -25,3 +23,6 @@ if ( $current_page() !== '/' ) {
 	</style>
 </head>
 <body>
+	<header>
+		<h1>Parish Oil</h1>
+	</header>
