@@ -3,7 +3,7 @@
 $current_page = $_SERVER['PHP_SELF'];
 
 if ( $current_page !== '/' ) {
-	include 'content' . $current_page; 
+	include site_path('content' . $current_page); 
 } else {
 	$heading = 'Index';
 	$content = 'Welcome!';

@@ -1,4 +1,6 @@
-<?php include 'functions.php'; ?>
+<?php 
+define('SITE_ROOT', __DIR__);
+include 'functions.php'; ?>
 <?php include 'partials/header.php'; ?>
 	<div class="container">
 		<div class="row">
