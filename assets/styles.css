@@ -1,0 +1,8 @@
+header {
+	margin-top: 5px;
+	border-top: 5px solid darkblue;
+}
+
+ul li .active {
+	background: red;
+}
